@@ -1,1 +1,453 @@
+/* =====================================
+   GLOBAL STYLES
+===================================== */
 
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+
+    font-family:'Inter',sans-serif;
+
+    background:#0d1117;
+
+    color:#e6edf3;
+
+    line-height:1.7;
+
+}
+
+
+/* =====================================
+   CONTAINER
+===================================== */
+
+.container{
+
+    width:90%;
+
+    max-width:1150px;
+
+    margin:auto;
+
+}
+
+
+/* =====================================
+   HERO
+===================================== */
+
+.hero{
+
+    min-height:100vh;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    text-align:center;
+
+    padding:60px 20px;
+
+}
+
+.hero h1{
+
+    font-size:64px;
+
+    font-weight:700;
+
+    margin-bottom:15px;
+
+}
+
+.hero h2{
+
+    color:#58a6ff;
+
+    font-size:24px;
+
+    font-weight:500;
+
+    margin-bottom:25px;
+
+}
+
+.hero h2 span{
+
+    color:#666;
+
+    margin:0 10px;
+
+}
+
+.hero p{
+
+    max-width:720px;
+
+    margin:auto;
+
+    color:#9ba3af;
+
+    font-size:18px;
+
+}
+
+
+/* =====================================
+   BUTTONS
+===================================== */
+
+.hero-buttons{
+
+    margin-top:40px;
+
+}
+
+.hero-buttons a{
+
+    display:inline-block;
+
+    text-decoration:none;
+
+    color:white;
+
+    background:#238636;
+
+    padding:14px 30px;
+
+    border-radius:8px;
+
+    margin:10px;
+
+    transition:.3s;
+
+    font-weight:600;
+
+}
+
+.hero-buttons a:hover{
+
+    background:#2ea043;
+
+    transform:translateY(-3px);
+
+}
+
+
+/* =====================================
+   SECTION
+===================================== */
+
+.section{
+
+    padding:90px 0;
+
+}
+
+.section h3{
+
+    font-size:34px;
+
+    margin-bottom:40px;
+
+    color:#58a6ff;
+
+}
+
+
+/* =====================================
+   ABOUT
+===================================== */
+
+.about-text{
+
+    max-width:900px;
+
+    font-size:18px;
+
+    color:#c9d1d9;
+
+}
+
+
+/* =====================================
+   SKILLS
+===================================== */
+
+.skills{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:15px;
+
+}
+
+.skills span{
+
+    padding:12px 20px;
+
+    background:#161b22;
+
+    border:1px solid #30363d;
+
+    border-radius:30px;
+
+    transition:.3s;
+
+    cursor:default;
+
+}
+
+.skills span:hover{
+
+    background:#21262d;
+
+    transform:translateY(-3px);
+
+}
+
+
+/* =====================================
+   PROJECTS
+===================================== */
+
+.projects{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+
+    gap:35px;
+
+}
+
+
+/* =====================================
+   CARD
+===================================== */
+
+.card{
+
+    background:#161b22;
+
+    border:1px solid #30363d;
+
+    border-radius:14px;
+
+    padding:30px;
+
+    transition:.35s;
+
+}
+
+.card:hover{
+
+    transform:translateY(-8px);
+
+    border-color:#58a6ff;
+
+    box-shadow:0px 12px 35px rgba(0,0,0,.35);
+
+}
+
+.card h4{
+
+    font-size:24px;
+
+    margin-bottom:18px;
+
+}
+
+.card p{
+
+    color:#9ba3af;
+
+    margin-bottom:20px;
+
+}
+
+.card ul{
+
+    margin-left:20px;
+
+    margin-bottom:25px;
+
+}
+
+.card li{
+
+    margin-bottom:10px;
+
+}
+
+.card a{
+
+    text-decoration:none;
+
+    color:#58a6ff;
+
+    font-weight:600;
+
+}
+
+.card a:hover{
+
+    color:white;
+
+}
+
+
+/* =====================================
+   CONTACT
+===================================== */
+
+.contact{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:20px;
+
+}
+
+.contact a{
+
+    text-decoration:none;
+
+    color:white;
+
+    background:#161b22;
+
+    border:1px solid #30363d;
+
+    padding:14px 28px;
+
+    border-radius:8px;
+
+    transition:.3s;
+
+}
+
+.contact a:hover{
+
+    background:#238636;
+
+}
+
+
+/* =====================================
+   FOOTER
+===================================== */
+
+footer{
+
+    text-align:center;
+
+    padding:45px;
+
+    color:#7d8590;
+
+    border-top:1px solid #30363d;
+
+}
+
+
+/* =====================================
+   SCROLLBAR
+===================================== */
+
+::-webkit-scrollbar{
+
+    width:10px;
+
+}
+
+::-webkit-scrollbar-track{
+
+    background:#0d1117;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:#30363d;
+
+    border-radius:10px;
+
+}
+
+::-webkit-scrollbar-thumb:hover{
+
+    background:#58a6ff;
+
+}
+
+
+/* =====================================
+   RESPONSIVE
+===================================== */
+
+@media(max-width:768px){
+
+.hero h1{
+
+    font-size:46px;
+
+}
+
+.hero h2{
+
+    font-size:18px;
+
+}
+
+.hero p{
+
+    font-size:16px;
+
+}
+
+.section{
+
+    padding:70px 0;
+
+}
+
+.section h3{
+
+    font-size:28px;
+
+}
+
+.projects{
+
+    grid-template-columns:1fr;
+
+}
+
+.hero-buttons a{
+
+    display:block;
+
+    margin:15px auto;
+
+    width:220px;
+
+    text-align:center;
+
+}
+
+}
