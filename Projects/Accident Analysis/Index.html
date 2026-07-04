@@ -1,0 +1,1603 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Road Accident Analysis | India</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+
+
+<!-- ======================================= -->
+<!-- NAVIGATION -->
+<!-- ======================================= -->
+
+<nav>
+
+    <div class="container nav-container">
+
+        <div class="logo">
+
+            🚧 Road Accident Analysis
+
+        </div>
+
+        <div class="nav-links">
+
+            <a href="../../index.html">
+
+                Portfolio
+
+            </a>
+
+            <a href="#overview">
+
+                Overview
+
+            </a>
+
+            <a href="#technology">
+
+                Technology
+
+            </a>
+
+            <a href="#dashboards">
+
+                Dashboards
+
+            </a>
+
+            <a href="#insights">
+
+                Insights
+
+            </a>
+
+        </div>
+
+    </div>
+
+</nav>
+
+
+
+
+
+<!-- ======================================= -->
+<!-- HERO -->
+<!-- ======================================= -->
+
+<header class="hero">
+
+    <div class="container hero-content">
+
+        <div class="hero-text">
+
+            <span class="project-tag">
+
+                PUBLIC POLICY • BUSINESS INTELLIGENCE
+
+            </span>
+
+            <h1>
+
+                Road Accident Analysis
+
+            </h1>
+
+            <h2>
+
+                National Road Safety Analytics Dashboard
+                for India (2021–2024)
+
+            </h2>
+
+            <p>
+
+                An end-to-end Business Intelligence project
+                analysing road accident trends across India.
+
+                The project explores accident hotspots,
+                driver behaviour, road infrastructure,
+                environmental factors and policy
+                recommendations through an interactive
+                Power BI dashboard.
+
+            </p>
+
+
+
+            <div class="hero-buttons">
+
+                <a class="primary-btn"
+
+                    href="https://github.com/Snehashis1999/Road-Accident-Analysis-India"
+
+                    target="_blank">
+
+                    View Repository
+
+                </a>
+
+                <a class="secondary-btn"
+
+                    href="https://github.com/Snehashis1999/Road-Accident-Analysis-India/blob/main/PowerBi%20File/Accident%20Analysis%20Dashboard.pbix">
+
+                    Download PBIX
+
+                </a>
+
+            </div>
+
+
+
+
+            <div class="tech-badges">
+
+                <span>Power BI</span>
+
+                <span>Power Query</span>
+
+                <span>DAX</span>
+
+                <span>SQL</span>
+
+                <span>Excel</span>
+
+                <span>Star Schema</span>
+
+            </div>
+
+        </div>
+
+
+
+
+        <div class="hero-image">
+
+            <img 
+                src="Accident Summary.jpg"
+                alt="Accident Summary Dashboard"
+                class="dashboard-image"
+                onclick="openLightbox(this.src,'Road Accident Dashboard')">
+
+        </div>
+
+    </div>
+
+</header>
+
+
+
+
+
+
+
+<!-- ======================================= -->
+<!-- PROJECT OVERVIEW -->
+<!-- ======================================= -->
+
+<section id="overview">
+
+    <div class="container">
+
+        <h2 class="section-title">
+
+            Project Overview
+
+        </h2>
+
+        <div class="overview-card">
+
+            <p>
+
+                Road accidents remain one of India's
+                most significant public safety challenges,
+                resulting in substantial loss of life,
+                economic productivity and infrastructure
+                costs every year.
+
+            </p>
+
+            <p>
+
+                This project analyses accident data
+                collected between 2021 and 2024 to
+                identify long-term trends, regional
+                accident hotspots and behavioural,
+                demographic and environmental
+                factors contributing to accidents.
+
+            </p>
+
+            <p>
+
+                Following a complete Business
+                Intelligence workflow, the project
+                transforms raw government datasets
+                into interactive dashboards and
+                policy-oriented recommendations
+                for improving road safety.
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+<!-- ======================================= -->
+<!-- BUSINESS OBJECTIVES -->
+<!-- ======================================= -->
+
+<section>
+
+    <div class="container">
+
+        <h2 class="section-title">
+
+            Business Objectives
+
+        </h2>
+
+
+
+        <div class="problem-grid">
+
+            <div class="problem-card">
+
+                <h3>
+
+                    📍 Accident Hotspots
+
+                </h3>
+
+                <p>
+
+                    Identify states with the highest
+                    accident frequency using both
+                    absolute and population-adjusted
+                    metrics.
+
+                </p>
+
+            </div>
+
+
+
+
+
+            <div class="problem-card">
+
+                <h3>
+
+                    🚗 Driver Behaviour
+
+                </h3>
+
+                <p>
+
+                    Analyse overspeeding,
+                    licensing status,
+                    age groups and
+                    behavioural factors.
+
+                </p>
+
+            </div>
+
+
+
+
+
+            <div class="problem-card">
+
+                <h3>
+
+                    🛣 Infrastructure
+
+                </h3>
+
+                <p>
+
+                    Study accident
+                    distribution across
+                    highways, urban roads,
+                    junctions and road types.
+
+                </p>
+
+            </div>
+
+
+
+
+
+            <div class="problem-card">
+
+                <h3>
+
+                    🌦 Environment
+
+                </h3>
+
+                <p>
+
+                    Evaluate weather,
+                    collision type,
+                    lighting conditions
+                    and time of accidents.
+
+                </p>
+
+            </div>
+
+
+
+
+
+            <div class="problem-card">
+
+                <h3>
+
+                    📊 Policy Support
+
+                </h3>
+
+                <p>
+
+                    Generate data-driven
+                    recommendations
+                    for improving
+                    road safety.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+
+<!-- ======================================= -->
+<!-- TECHNOLOGY STACK -->
+<!-- ======================================= -->
+
+<section id="technology">
+
+    <div class="container">
+
+        <h2 class="section-title">
+
+            Technology Stack
+
+        </h2>
+
+
+
+        <div class="stack-grid">
+
+            <div class="stack-card">
+
+                <h3>
+
+                    📑 Microsoft Excel
+
+                </h3>
+
+                <p>
+
+                    Initial data inspection
+
+                    <br><br>
+
+                    Dataset familiarisation
+
+                </p>
+
+            </div>
+
+
+
+
+
+            <div class="stack-card">
+
+                <h3>
+
+                    ⚙ Power Query
+
+                </h3>
+
+                <p>
+
+                    Data Cleaning
+
+                    <br>
+
+                    Transformation
+
+                    <br>
+
+                    ETL
+
+                </p>
+
+            </div>
+
+
+
+
+
+            <div class="stack-card">
+
+                <h3>
+
+                    🗄 SQL
+
+                </h3>
+
+                <p>
+
+                    Data Validation
+
+                    <br>
+
+                    Querying
+
+                    <br>
+
+                    Business Analysis
+
+                </p>
+
+            </div>
+
+
+
+
+
+            <div class="stack-card">
+
+                <h3>
+
+                    📊 Power BI
+
+                </h3>
+
+                <p>
+
+                    Dashboard Development
+
+                    <br>
+
+                    DAX Measures
+
+                    <br>
+
+                    Interactive Reporting
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+<!-- ===== PART 2 STARTS HERE ===== -->
+
+<!-- ======================================= -->
+<!-- BI WORKFLOW -->
+<!-- ======================================= -->
+
+<section id="pipeline">
+
+    <div class="container">
+
+        <h2 class="section-title">
+
+            Business Intelligence Workflow
+
+        </h2>
+
+        <p class="section-subtitle">
+
+            This project follows a complete Business Intelligence pipeline,
+            transforming raw government datasets into interactive policy
+            dashboards through structured ETL, modelling and visualization.
+
+        </p>
+
+        <div class="pipeline">
+
+            <div class="pipeline-box">
+
+                <div class="pipeline-icon">
+
+                    📄
+
+                </div>
+
+                <h3>
+
+                    Government Data
+
+                </h3>
+
+                <p>
+
+                    Ministry of Road Transport
+                    & Highways (MoRTH)
+
+                    <br><br>
+
+                    2021–2024
+
+                </p>
+
+            </div>
+
+            <div class="arrow">→</div>
+
+            <div class="pipeline-box">
+
+                <div class="pipeline-icon">
+
+                    ⚙
+
+                </div>
+
+                <h3>
+
+                    Power Query
+
+                </h3>
+
+                <p>
+
+                    Cleaning
+
+                    <br>
+
+                    Transformation
+
+                    <br>
+
+                    Unpivot
+
+                </p>
+
+            </div>
+
+            <div class="arrow">→</div>
+
+            <div class="pipeline-box">
+
+                <div class="pipeline-icon">
+
+                    🗄
+
+                </div>
+
+                <h3>
+
+                    SQL
+
+                </h3>
+
+                <p>
+
+                    Validation
+
+                    <br>
+
+                    Analysis
+
+                </p>
+
+            </div>
+
+            <div class="arrow">→</div>
+
+            <div class="pipeline-box">
+
+                <div class="pipeline-icon">
+
+                    📊
+
+                </div>
+
+                <h3>
+
+                    Power BI
+
+                </h3>
+
+                <p>
+
+                    Dashboards
+
+                    <br>
+
+                    Policy Insights
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
+<!-- ======================================= -->
+<!-- DATASET -->
+<!-- ======================================= -->
+
+<section>
+
+    <div class="container">
+
+        <h2 class="section-title">
+
+            Dataset Coverage
+
+        </h2>
+
+        <p class="section-subtitle">
+
+            Multiple government datasets were integrated
+            to provide a comprehensive national view
+            of road safety.
+
+        </p>
+
+        <div class="feature-grid">
+
+            <div class="feature-card">
+
+                <h3>
+
+                    Accident Statistics
+
+                </h3>
+
+                <ul>
+
+                    <li>Road Accidents</li>
+
+                    <li>Fatal Accidents</li>
+
+                    <li>Fatalities</li>
+
+                    <li>Year-wise Trends</li>
+
+                </ul>
+
+            </div>
+
+
+
+
+
+            <div class="feature-card">
+
+                <h3>
+
+                    Driver Information
+
+                </h3>
+
+                <ul>
+
+                    <li>Age Group</li>
+
+                    <li>Gender</li>
+
+                    <li>Driving Licence</li>
+
+                    <li>Traffic Violations</li>
+
+                </ul>
+
+            </div>
+
+
+
+
+
+            <div class="feature-card">
+
+                <h3>
+
+                    Road Environment
+
+                </h3>
+
+                <ul>
+
+                    <li>Road Type</li>
+
+                    <li>Weather</li>
+
+                    <li>Junction Type</li>
+
+                    <li>Collision Type</li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
+<!-- ======================================= -->
+<!-- DATA PREPARATION -->
+<!-- ======================================= -->
+
+<section>
+
+    <div class="container">
+
+        <h2 class="section-title">
+
+            Data Preparation
+
+        </h2>
+
+        <div class="overview-card">
+
+            <p>
+
+                Significant effort was invested in cleaning,
+                transforming and modelling the raw datasets
+                before visualization.
+
+            </p>
+
+            <br>
+
+            <div class="problem-grid">
+
+                <div class="problem-card">
+
+                    <h3>
+
+                        🧹 Data Cleaning
+
+                    </h3>
+
+                    <p>
+
+                        Removed duplicates,
+                        standardized state names,
+                        corrected inconsistent values
+                        and handled missing records.
+
+                    </p>
+
+                </div>
+
+
+
+
+
+                <div class="problem-card">
+
+                    <h3>
+
+                        🔄 Transformation
+
+                    </h3>
+
+                    <p>
+
+                        Converted wide-format
+                        government tables into
+                        analytical datasets
+                        using Unpivot.
+
+                    </p>
+
+                </div>
+
+
+
+
+
+                <div class="problem-card">
+
+                    <h3>
+
+                        🔑 Modelling
+
+                    </h3>
+
+                    <p>
+
+                        Generated primary keys,
+                        dimension tables and
+                        optimized relationships.
+
+                    </p>
+
+                </div>
+
+
+
+
+
+                <div class="problem-card">
+
+                    <h3>
+
+                        📈 Calculated Metrics
+
+                    </h3>
+
+                    <p>
+
+                        Accident Density
+
+                        <br>
+
+                        Mortality Rate
+
+                        <br>
+
+                        Dynamic KPIs
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+<!-- ======================================= -->
+<!-- STAR SCHEMA -->
+<!-- ======================================= -->
+
+<section>
+
+    <div class="container">
+
+        <h2 class="section-title">
+
+            Star Schema
+
+        </h2>
+
+        <p class="section-subtitle">
+
+            A dimensional model was implemented
+            to improve reporting performance,
+            scalability and analytical flexibility.
+
+        </p>
+
+        <div class="schema-image">
+
+            <img 
+                src="Star Schema.png"
+                alt="Road Accident Star Schema"
+                class="dashboard-image"
+                onclick="openLightbox(this.src,'Road Accident Star Schema')">
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+<!-- ======================================= -->
+<!-- DASHBOARD GALLERY -->
+<!-- ======================================= -->
+
+<section id="dashboards">
+
+    <div class="container">
+
+        <h2 class="section-title">
+
+            Dashboard Gallery
+
+        </h2>
+
+        <p class="section-subtitle">
+
+            Six dashboards provide a complete
+            analytical view of road safety across India.
+
+        </p>
+
+        <div class="dashboard-grid">
+
+            <div class="dashboard-card">
+
+                <img 
+                src="Accident Summary.jpg"
+                alt="Accident Summary Dashboard"
+                class="dashboard-image"
+                onclick="openLightbox(this.src,'Road Accident Dashboard')">
+
+                <h3>
+
+                    Executive Summary
+
+                </h3>
+
+            </div>
+
+
+
+
+
+            <div class="dashboard-card">
+
+                <img 
+                src="Road Summary.jpg"
+                alt="Road Summary Dashboard"
+                class="dashboard-image"
+                onclick="openLightbox(this.src,'Road Summary Dashboard')">
+
+                <h3>
+
+                    Road Infrastructure
+
+                </h3>
+
+            </div>
+
+
+
+
+
+            <div class="dashboard-card">
+
+                <img 
+                    src="Accident Causes.jpg"
+                    alt="Accident Causes Dashboard"
+                    class="dashboard-image"
+                    onclick="openLightbox(this.src,'Accident Causes Dashboard')">
+                <h3>
+
+                    Accident Cause Analysis
+
+                </h3>
+
+            </div>
+
+
+
+
+
+            <div class="dashboard-card">
+
+                <img 
+                    src="Driver Demographics.jpg"
+                    alt="Driver Demographics Dashboard"
+                    class="dashboard-image"
+                    onclick="openLightbox(this.src,'Driver Demographics Dashboard')">
+
+                <h3>
+
+                    Driver Demographics
+
+                </h3>
+
+            </div>
+
+
+
+
+
+            <div class="dashboard-card">
+
+                <img 
+                    src="Road and Environment Analysis.jpg"
+                    alt="Road and Environment Analysis Dashboard"
+                    class="dashboard-image"
+                    onclick="openLightbox(this.src,'Road and Environment Analysis Dashboard')">
+
+                <h3>
+
+                    Road & Environmental Analysis
+
+                </h3>
+
+            </div>
+
+
+
+
+
+            <div class="dashboard-card">
+
+                <img 
+                    src="Recommendations.jpg"
+                    alt="Recommendations Dashboard"
+                    class="dashboard-image"
+                    onclick="openLightbox(this.src,'Recommendations Dashboard')">
+
+                <h3>
+
+                    Strategic Recommendations
+
+                </h3>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ===== PART 3 STARTS HERE ===== -->
+
+<!-- ======================================= -->
+<!-- KEY INSIGHTS -->
+<!-- ======================================= -->
+
+<section id="insights">
+
+    <div class="container">
+
+        <h2 class="section-title">
+
+            Key Insights
+
+        </h2>
+
+        <p class="section-subtitle">
+
+            The analysis identified critical trends across accident
+            frequency, infrastructure, driver behaviour and regional
+            risk patterns.
+
+        </p>
+
+        <div class="insight-grid">
+
+            <div class="insight-card">
+
+                <h3>
+
+                    📈 National Trend
+
+                </h3>
+
+                <ul>
+
+                    <li>Road accidents increased by 18.4% between 2021 and 2024.</li>
+
+                    <li>Although accidents continue to rise, annual growth has gradually slowed.</li>
+
+                    <li>Fatal accidents continue to remain a major public safety concern.</li>
+
+                </ul>
+
+            </div>
+
+
+
+
+
+            <div class="insight-card">
+
+                <h3>
+
+                    🚗 Driver Behaviour
+
+                </h3>
+
+                <ul>
+
+                    <li>Overspeeding accounts for nearly 75% of violation-related accidents.</li>
+
+                    <li>Male drivers dominate accident involvement.</li>
+
+                    <li>Drivers aged 25–35 years represent the highest risk group.</li>
+
+                </ul>
+
+            </div>
+
+
+
+
+
+            <div class="insight-card">
+
+                <h3>
+
+                    🛣 Infrastructure
+
+                </h3>
+
+                <ul>
+
+                    <li>National Highways record the highest fatality rate.</li>
+
+                    <li>Road design and junction characteristics strongly influence accident severity.</li>
+
+                    <li>Infrastructure quality remains a major contributor to road safety.</li>
+
+                </ul>
+
+            </div>
+
+
+
+
+
+            <div class="insight-card">
+
+                <h3>
+
+                    📍 Geographic Analysis
+
+                </h3>
+
+                <ul>
+
+                    <li>Tamil Nadu reports the highest total accidents.</li>
+
+                    <li>Goa records the highest accident density per lakh population.</li>
+
+                    <li>Regional disparities indicate the need for state-specific interventions.</li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+<!-- ======================================= -->
+<!-- POLICY RECOMMENDATIONS -->
+<!-- ======================================= -->
+
+<section>
+
+    <div class="container">
+
+        <h2 class="section-title">
+
+            Strategic Recommendations
+
+        </h2>
+
+        <div class="recommendation-grid">
+
+            <div class="recommendation-card">
+
+                🚓
+
+                <h3>
+
+                    Intelligent Enforcement
+
+                </h3>
+
+                <p>
+
+                    Deploy AI-assisted traffic monitoring and
+                    automated speed enforcement on
+                    high-risk corridors.
+
+                </p>
+
+            </div>
+
+
+
+
+
+            <div class="recommendation-card">
+
+                🛣
+
+                <h3>
+
+                    Safer Infrastructure
+
+                </h3>
+
+                <p>
+
+                    Prioritize engineering improvements
+                    at accident hotspots and
+                    hazardous junctions.
+
+                </p>
+
+            </div>
+
+
+
+
+
+            <div class="recommendation-card">
+
+                🎓
+
+                <h3>
+
+                    Driver Awareness
+
+                </h3>
+
+                <p>
+
+                    Expand road safety campaigns
+                    targeting young drivers
+                    and repeat offenders.
+
+                </p>
+
+            </div>
+
+
+
+
+
+            <div class="recommendation-card">
+
+                📡
+
+                <h3>
+
+                    Data-Driven Policy
+
+                </h3>
+
+                <p>
+
+                    Integrate GIS,
+                    weather and
+                    real-time traffic data
+                    into future safety planning.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+
+<!-- ======================================= -->
+<!-- SKILLS -->
+<!-- ======================================= -->
+
+<section>
+
+    <div class="container">
+
+        <h2 class="section-title">
+
+            Skills Demonstrated
+
+        </h2>
+
+        <div class="tech-badges">
+
+            <span>Power BI</span>
+
+            <span>Power Query</span>
+
+            <span>DAX</span>
+
+            <span>SQL</span>
+
+            <span>Excel</span>
+
+            <span>ETL</span>
+
+            <span>Data Cleaning</span>
+
+            <span>Star Schema</span>
+
+            <span>Dashboard Design</span>
+
+            <span>Data Storytelling</span>
+
+            <span>Business Intelligence</span>
+
+            <span>Policy Analytics</span>
+
+            <span>EDA</span>
+
+            <span>KPI Design</span>
+
+            <span>Data Validation</span>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+
+<!-- ======================================= -->
+<!-- FUTURE IMPROVEMENTS -->
+<!-- ======================================= -->
+
+<section>
+
+    <div class="container">
+
+        <h2 class="section-title">
+
+            Future Improvements
+
+        </h2>
+
+        <div class="feature-grid">
+
+            <div class="feature-card">
+
+                <h3>
+
+                    📍 GIS Analytics
+
+                </h3>
+
+                <p>
+
+                    Integrate district-level GIS mapping
+                    for hotspot identification.
+
+                </p>
+
+            </div>
+
+
+
+
+
+            <div class="feature-card">
+
+                <h3>
+
+                    🌦 Real-Time Data
+
+                </h3>
+
+                <p>
+
+                    Incorporate weather,
+                    traffic flow and
+                    IoT-based monitoring.
+
+                </p>
+
+            </div>
+
+
+
+
+
+            <div class="feature-card">
+
+                <h3>
+
+                    🤖 Predictive Analytics
+
+                </h3>
+
+                <p>
+
+                    Build machine learning
+                    models for accident
+                    forecasting and
+                    risk prediction.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+<!-- ======================================= -->
+<!-- PROJECT LINKS -->
+<!-- ======================================= -->
+
+<section>
+
+    <div class="container">
+
+        <div class="project-links">
+
+            <a
+
+                href="https://github.com/Snehashis1999/Road-Accident-Analysis-India"
+
+                target="_blank"
+
+                class="primary-btn">
+
+                📂 View Repository
+
+            </a>
+
+
+
+            <a
+
+                href="https://github.com/Snehashis1999/Road-Accident-Analysis-India/blob/main/PowerBi%20File/Accident%20Analysis%20Dashboard.pbix"
+
+                class="secondary-btn">
+
+                📥 Download PBIX
+
+            </a>
+
+
+
+            <a
+
+                href="../../index.html"
+
+                class="secondary-btn">
+
+                ← Back to Portfolio
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+
+<!-- ======================================= -->
+<!-- FOOTER -->
+<!-- ======================================= -->
+
+<footer>
+
+    <div class="container">
+
+        <h3>
+
+            Road Accident Analysis
+
+        </h3>
+
+        <p>
+
+            Business Intelligence Dashboard
+            for National Road Safety Analysis
+
+        </p>
+
+        <br>
+
+        <p>
+
+            Designed & Developed by
+
+            <strong>
+
+                Snehashis Mukherjee
+
+            </strong>
+
+        </p>
+
+    </div>
+
+</footer>
+
+    <script src="../../script.js"></script>
+
+</body>
+
+</html>
